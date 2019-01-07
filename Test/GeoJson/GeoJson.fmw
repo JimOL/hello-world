@@ -1,0 +1,1203 @@
+#! <?xml version="1.0" encoding="utf-8" ?>
+#! <WORKSPACE
+#    
+#    
+#    Command-line to run this workspace:
+#    
+#    
+#    D:\apps\FME\fme.exe C:\Users\enjeosvr\AppData\Local\Temp\2\wb_publish_1454514360160_3648/GeoJson.fmw
+#    
+#    
+#! LOG_MAX_RECORDED_FEATURES="200"
+#! FME_BUILD_NUM="15485"
+#! DOC_EXTENTS="3028.04 1059.01"
+#! IGNORE_READER_FAILURE="No"
+#! FME_STROKE_MAX_DEVIATION="0"
+#! BEGIN_TCL=""
+#! LOG_MAX_PRECISION="Yes"
+#! VIEW_POSITION="168.002 33.0003"
+#! WORKSPACE_VERSION="1"
+#! LAST_SAVE_BUILD="FME(R) 2015.1.0.3 (20150623 - Build 15485 - WIN32)"
+#! WARN_INVALID_XFORM_PARAM="Yes"
+#! REQUIREMENTS=""
+#! LOG_FILE=""
+#! CATEGORY=""
+#! LAST_SAVE_DATE="2016-02-03T07:46:00"
+#! END_PYTHON=""
+#! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Datum"
+#! TITLE=""
+#! ZOOM_SCALE="100"
+#! SOURCE="NONE"
+#! DESTINATION_ROUTING_FILE=""
+#! BEGIN_PYTHON=""
+#! DESTINATION="NONE"
+#! FME_GEOMETRY_HANDLING="Enhanced"
+#! HISTORY=""
+#! LEGAL_TERMS_CONDITIONS=""
+#! DESCRIPTION=""
+#! MAX_LOG_FEATURES="200"
+#! MULTI_WRITER_DATASET_ORDER="BY_ID"
+#! FME_DOCUMENT_PRIORGUID="e1f351e9-1fba-4831-9dff-b011465962fe,ca8e235c-a1db-46d3-a7de-6d0f604de6ee,802528af-3506-4a37-96ea-de07bf5246bf,945cef4c-43f9-4b78-92b3-eba4c91003ea,c7c3049e-701d-40ae-944d-6eb6f077fdd2"
+#! DOC_TOP_LEFT="57.0002 -1242.01"
+#! REQUIREMENTS_KEYWORD=""
+#! PASSWORD=""
+#! FME_DOCUMENT_GUID="625efe0f-8840-4da8-9c74-6b07fa287de1"
+#! FME_SERVER_SERVICES=""
+#! SHOW_ANNOTATIONS="true"
+#! END_TCL=""
+#! FME_REPROJECTION_ENGINE="FME"
+#! REDIRECT_TERMINATORS="NONE"
+#! USAGE=""
+#! SHOW_INFO_NODES="true"
+#! SOURCE_ROUTING_FILE=""
+#! ATTR_TYPE_ENCODING="SDF"
+#! >
+#! <DATASETS>
+#! <DATASET
+#! IS_SOURCE="true"
+#! ROLE="READER"
+#! FORMAT="SDF3"
+#! DATASET="$(SourceDataset_SDF3)"
+#! KEYWORD="SDF3_1"
+#! MULTI_GEOM_ALLOWED="false"
+#! ATTR_MAX_LENGTH="60"
+#! ATTR_CASE="ANY"
+#! ALLOWED_FEAT_TYPES=""
+#! WRITE_DEFS="true"
+#! DEFLINE_TEMPLATE=""
+#! DEFLINE_ATTRS="true"
+#! EXPOSABLE_ATTRS="fme_color char(50) fme_fill_color char(50) fme_sweep_angle double fme_feature_type char(50) fme_rotation double multi_reader_full_id int32 fme_text_string char(50) multi_reader_id int32 fme_primary_axis double fme_basename char(50) fme_text_size double fme_start_angle double fme_secondary_axis double fme_geometry fme_char(50) fme_dataset char(50) fme_type char(50) fdo_type char(50) multi_reader_keyword char(50) multi_reader_type char(50)"
+#! DEFLINE_PARMS=""
+#! ATTR_INDEX_TYPES="IDENTITY"
+#! ATTR_NAME_INVALID_CHARS=""
+#! SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#! ENABLED="true"
+#! DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#! DATASET_TYPE="FILE"
+#! GENERATE_FME_BUILD_NUM="6538"
+#! MIN_FEATURES=""
+#! MAX_FEATURES=""
+#! COORDSYS="TX83-CF"
+#! FEATURE_TYPES="Default.BusRoutes Default.BusStops"
+#! MAX_FEATURES_PER_FEATURE_TYPE=""
+#! START_FEATURE=""
+#! />
+#! <DATASET
+#! IS_SOURCE="false"
+#! ROLE="WRITER"
+#! FORMAT="TEXTLINE"
+#! DATASET="$(DestDataset_TEXTLINE_3)"
+#! KEYWORD="TEXTLINE_1"
+#! MULTI_GEOM_ALLOWED="true"
+#! ATTR_MAX_LENGTH="60"
+#! ATTR_CASE="ANY"
+#! ALLOWED_FEAT_TYPES="text_line"
+#! WRITE_DEFS="false"
+#! DEFLINE_TEMPLATE=""
+#! DEFLINE_ATTRS="false"
+#! EXPOSABLE_ATTRS="text_line_eol char(10) fme_fill_color char(50) fme_type char(50) fme_basename char(50) fme_color char(50) fme_secondary_axis number(31,15) fme_text_size number(31,15) fme_text_string char(50) fme_geometry fme_char(50) fme_rotation number(31,15) fme_dataset char(50) fme_start_angle number(31,15) fme_sweep_angle number(31,15) fme_primary_axis number(31,15) fme_feature_type char(50)"
+#! DEFLINE_PARMS=""
+#! ATTR_INDEX_TYPES=""
+#! ATTR_NAME_INVALID_CHARS=""
+#! SUPPORTS_FEATURE_TYPE_FANOUT="false"
+#! ENABLED="true"
+#! DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#! DATASET_TYPE="FILE"
+#! GENERATE_FME_BUILD_NUM="15485"
+#! FANOUT_SUFFIX=""
+#! FANOUT_DIRECTORY=""
+#! FANOUT_PREFIX=""
+#! COORDSYS=""
+#! FANOUT_ID_ATTR=""
+#! FANOUT="No"
+#! >
+#! <METAFILE_PARAMETER
+#! NAME="FEATURE_TYPE_DEFAULT_NAME"
+#! VALUE="text_line"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="READER_DATASET_HINT"
+#! VALUE="Select the Text file(s)"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="DATASET_NAME"
+#! VALUE="txt file"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="WRITER_DATASET_HINT"
+#! VALUE="Specify a name for the Text file"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="MIME_TYPE"
+#! VALUE="application/json"
+#! />
+#! </DATASET>
+#! </DATASETS>
+#! <DATA_TYPES>
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="boolean"
+#! FME_TYPE="fme_boolean"
+#! FORMAT="SDF3"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="datetime"
+#! FME_TYPE="fme_datetime"
+#! FORMAT="SDF3"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="datetime"
+#! FME_TYPE="fme_date"
+#! FORMAT="SDF3"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="datetime"
+#! FME_TYPE="fme_time"
+#! FORMAT="SDF3"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="decimal(width,decimal)"
+#! FME_TYPE="fme_decimal(width,decimal)"
+#! FORMAT="SDF3"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="int16"
+#! FME_TYPE="fme_int16"
+#! FORMAT="SDF3"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="int32"
+#! FME_TYPE="fme_int32"
+#! FORMAT="SDF3"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="int64"
+#! FME_TYPE="fme_int32"
+#! FORMAT="SDF3"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="byte"
+#! FME_TYPE="fme_int16"
+#! FORMAT="SDF3"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="single"
+#! FME_TYPE="fme_real32"
+#! FORMAT="SDF3"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="double"
+#! FME_TYPE="fme_real64"
+#! FORMAT="SDF3"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="char(width)"
+#! FME_TYPE="fme_varchar(width)"
+#! FORMAT="SDF3"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="char(width)"
+#! FME_TYPE="fme_char(width)"
+#! FORMAT="SDF3"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="char(255)"
+#! FME_TYPE="fme_buffer"
+#! FORMAT="SDF3"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="blob(width)"
+#! FME_TYPE="fme_char(width)"
+#! FORMAT="SDF3"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="clob(width)"
+#! FME_TYPE="fme_char(width)"
+#! FORMAT="SDF3"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="char(width)"
+#! FME_TYPE="fme_varchar(width)"
+#! FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="char(width)"
+#! FME_TYPE="fme_char(width)"
+#! FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="buffer"
+#! FME_TYPE="fme_buffer"
+#! FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="char(20)"
+#! FME_TYPE="fme_datetime"
+#! FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="char(12)"
+#! FME_TYPE="fme_time"
+#! FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="char(8)"
+#! FME_TYPE="fme_date"
+#! FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="char(1)"
+#! FME_TYPE="fme_char(width)"
+#! FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="number(31,15)"
+#! FME_TYPE="fme_real64"
+#! FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="number(15,7)"
+#! FME_TYPE="fme_real32"
+#! FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="number(11,0)"
+#! FME_TYPE="fme_int32"
+#! FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="number(11,0)"
+#! FME_TYPE="fme_uint32"
+#! FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="number(20,0)"
+#! FME_TYPE="fme_int64"
+#! FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="number(20,0)"
+#! FME_TYPE="fme_uint64"
+#! FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="logical"
+#! FME_TYPE="fme_boolean"
+#! FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="number(6,0)"
+#! FME_TYPE="fme_int16"
+#! FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="number(6,0)"
+#! FME_TYPE="fme_uint16"
+#! FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="number(4,0)"
+#! FME_TYPE="fme_uint8"
+#! FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="number(width,decimal)"
+#! FME_TYPE="fme_decimal(width,decimal)"
+#! FORMAT="TEXTLINE"
+#! />
+#! </DATA_TYPES>
+#! <GEOM_TYPES>
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="fdo_point"
+#! FME_TYPE="fme_point"
+#! FORMAT="SDF3"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="fdo_line"
+#! FME_TYPE="fme_line"
+#! FORMAT="SDF3"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="fdo_polygon"
+#! FME_TYPE="fme_area"
+#! FORMAT="SDF3"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="fdo_point"
+#! FME_TYPE="fme_text"
+#! FORMAT="SDF3"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="fdo_ellipse"
+#! FME_TYPE="fme_ellipse"
+#! FORMAT="SDF3"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="fdo_arc"
+#! FME_TYPE="fme_arc"
+#! FORMAT="SDF3"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="fdo_polygon"
+#! FME_TYPE="fme_rectangle"
+#! FORMAT="SDF3"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="fdo_polygon"
+#! FME_TYPE="fme_rounded_rectangle"
+#! FORMAT="SDF3"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="fdo_multigeometry"
+#! FME_TYPE="fme_collection"
+#! FORMAT="SDF3"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="fdo_null"
+#! FME_TYPE="fme_no_geom"
+#! FORMAT="SDF3"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="fme_any"
+#! FME_TYPE="fme_no_geom"
+#! FORMAT="SDF3"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="fdo_polygon"
+#! FME_TYPE="fme_raster"
+#! FORMAT="SDF3"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="fdo_line"
+#! FME_TYPE="fme_surface"
+#! FORMAT="SDF3"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="fdo_line"
+#! FME_TYPE="fme_solid"
+#! FORMAT="SDF3"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="fdo_polygon"
+#! FME_TYPE="fme_point_cloud"
+#! FORMAT="SDF3"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="text_line_none"
+#! FME_TYPE="fme_no_geom"
+#! FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="text_line_none"
+#! FME_TYPE="fme_point"
+#! FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="text_line_none"
+#! FME_TYPE="fme_line"
+#! FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="text_line_none"
+#! FME_TYPE="fme_area"
+#! FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="text_line_none"
+#! FME_TYPE="fme_text"
+#! FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="text_line_none"
+#! FME_TYPE="fme_ellipse"
+#! FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="text_line_none"
+#! FME_TYPE="fme_arc"
+#! FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="text_line_none"
+#! FME_TYPE="fme_rectangle"
+#! FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="text_line_none"
+#! FME_TYPE="fme_rounded_rectangle"
+#! FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="text_line_none"
+#! FME_TYPE="fme_collection"
+#! FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="text_line_none"
+#! FME_TYPE="fme_raster"
+#! FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="text_line_none"
+#! FME_TYPE="fme_surface"
+#! FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="text_line_none"
+#! FME_TYPE="fme_solid"
+#! FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="text_line_none"
+#! FME_TYPE="fme_point_cloud"
+#! FORMAT="TEXTLINE"
+#! />
+#! </GEOM_TYPES>
+#! <FEATURE_TYPES>
+#! <FEATURE_TYPE
+#! IS_SOURCE="true"
+#! NODE_NAME="Default.BusRoutes"
+#! FEATURE_TYPE_NAME=""
+#! FEATURE_TYPE_NAME_QUALIFIER=""
+#! IS_EDITABLE="false"
+#! IDENTIFIER="18"
+#! FEAT_GEOMTYPE="fdo_point fdo_line fdo_arc fdo_polygon fdo_ellipse"
+#! POSITION="57.0002 -183"
+#! BOUNDING_RECT="57.0002 -183 508 71"
+#! ORDER="16"
+#! COLLAPSED="true"
+#! KEYWORD="SDF3_1"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! HIDDEN_USER_ATTRS=""
+#! MERGE_FILTER=""
+#! MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#! MERGE_FILTER_CASE_SENSITIVE="true"
+#! DYNAMIC_SCHEMA="false"
+#! >
+#! <FEAT_ATTRIBUTE ATTR_NAME="LINE_ID" ATTR_TYPE="char(5)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="LINE_NAME" ATTR_TYPE="char(50)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="PRIMARYINDEX" ATTR_TYPE="int32" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#! IS_SOURCE="false"
+#! NODE_NAME="text_line"
+#! FEATURE_TYPE_NAME=""
+#! FEATURE_TYPE_NAME_QUALIFIER=""
+#! IS_EDITABLE="true"
+#! IDENTIFIER="27"
+#! FEAT_GEOMTYPE="text_line_none"
+#! POSITION="3085.04 -869.006"
+#! BOUNDING_RECT="3085.04 -869.006 -1 -1"
+#! ORDER="5e+014"
+#! COLLAPSED="false"
+#! KEYWORD="TEXTLINE_1"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! SCHEMA_ATTRIBUTE_SOURCE="1"
+#! >
+#! <FEAT_ATTRIBUTE ATTR_NAME="text_line_data" ATTR_TYPE="buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! </FEATURE_TYPE>
+#! </FEATURE_TYPES>
+#! <FMESERVER>
+#! <SERVICES>
+#! <SERVICE
+#! NAME="WFS"
+#! >
+#! <PROPERTIES>
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="COORDINATE_SYSTEM"
+#! VALUE="EPSG:4326"
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="MAX_X"
+#! VALUE="180"
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="MAX_Y"
+#! VALUE="90"
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="MIN_X"
+#! VALUE="-180"
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="MIN_Y"
+#! VALUE="-90"
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="WFS_DESCRIBE_FEATURE_TYPE"
+#! VALUE=""
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="WFS_GET_CAPABILITIES"
+#! VALUE=""
+#! />
+#! </PROPERTIES>
+#! </SERVICE>
+#! <SERVICE
+#! NAME="WMS"
+#! >
+#! <PROPERTIES>
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="COORDINATE_SYSTEM"
+#! VALUE="EPSG:4326"
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="MAX_X"
+#! VALUE="180"
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="MAX_Y"
+#! VALUE="90"
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="MIN_X"
+#! VALUE="-180"
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="MIN_Y"
+#! VALUE="-90"
+#! />
+#! </PROPERTIES>
+#! </SERVICE>
+#! <SERVICE
+#! NAME="fmedatastreaming"
+#! >
+#! <PROPERTIES>
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="ADVANCED"
+#! VALUE=""
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="FAILURE_TOPICS"
+#! VALUE=""
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="HTTP_DATASET"
+#! VALUE="SDF3_1"
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="NOTIFICATION_WRITER"
+#! VALUE=""
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="OUTPUT_WRITER"
+#! VALUE="TEXTLINE_1"
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="SUCCESS_TOPICS"
+#! VALUE=""
+#! />
+#! </PROPERTIES>
+#! </SERVICE>
+#! <SERVICE
+#! NAME="fmejobsubmitter"
+#! >
+#! <PROPERTIES>
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="ADVANCED"
+#! VALUE=""
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="FAILURE_TOPICS"
+#! VALUE=""
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="HTTP_DATASET"
+#! VALUE="SDF3_1"
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="NOTIFICATION_WRITER"
+#! VALUE=""
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="SUCCESS_TOPICS"
+#! VALUE=""
+#! />
+#! </PROPERTIES>
+#! </SERVICE>
+#! </SERVICES>
+#! <REPOSITORY
+#! NAME="Test"
+#! />
+#! <ITEM
+#! NAME="GeoJson.fmw"
+#! />
+#! <MODIFICATIONS>
+#! <MODIFICATION
+#! UID=":GlobalParameterMgr:DestDataset_TEXTLINE_3"
+#! VALUE="$(FME_MF_DIR)output\out.txt"
+#! />
+#! <MODIFICATION
+#! UID=":DatasetMgr_TEXTLINE_1:DestDataset_TEXTLINE_1"
+#! VALUE="$(DestDataset_TEXTLINE_3)"
+#! />
+#! <MODIFICATION
+#! UID=":DatasetMgr_TEXTLINE_1:FANOUT_DIRECTORY"
+#! VALUE=""
+#! />
+#! <MODIFICATION
+#! UID=":WBDoc:LOG_FILE"
+#! VALUE=""
+#! />
+#! <MODIFICATION
+#! UID=":WBDoc:DESTINATION_ROUTING_FILE"
+#! VALUE=""
+#! />
+#! <MODIFICATION
+#! UID=":GlobalParameterMgr:SourceDataset_SDF3"
+#! VALUE="C:\FMEData\Data\Transit\Transit.sdf"
+#! />
+#! <MODIFICATION
+#! UID=":WBParameterNode_16:ROOT_QUERY_FILE"
+#! VALUE="&lt;Unused&gt;"
+#! />
+#! <MODIFICATION
+#! UID=":WBDoc:SOURCE_ROUTING_FILE"
+#! VALUE=""
+#! />
+#! <MODIFICATION
+#! UID=":DatasetMgr_SDF3_1:SourceDataset_SDF3_1"
+#! VALUE="$(SourceDataset_SDF3)"
+#! />
+#! </MODIFICATIONS>
+#! </FMESERVER>
+#! <GLOBAL_PARAMETERS>
+#! <GLOBAL_PARAMETER
+#! GUI_LINE="GUI IGNORE MULTIFILE SourceDataset_SDF3 SDF_Files(*.sdf)|*.sdf|All_files(*.*)|*.* Source Autodesk MapGuide Enterprise SDF File(s):"
+#! DEFAULT_VALUE="C:\FMEData\Data\Transit\Transit.sdf"
+#! IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
+#! GUI_LINE="GUI IGNORE FILENAME DestDataset_TEXTLINE_3 Text/Compressed_Text_Files(*.txt;*.txt.gz)|*.txt;*.txt.gz|Text_Files(*.txt)|*.txt|Compressed_Text_Files(*.txt.gz)|*.txt.gz|All_files(*)|* Destination Text File:"
+#! DEFAULT_VALUE="D:\projects\other\geojson_streaming_demo\output\out.txt"
+#! IS_STAND_ALONE="false"
+#! />
+#! </GLOBAL_PARAMETERS>
+#! <COMMENTS>
+#! <COMMENT
+#! IDENTIFIER="17"
+#! COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;FME Server does not&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;stream this output&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#! POSITION="3010.04 -688.505"
+#! TOP_LEFT="3010.04 -688.505"
+#! BOTTOM_RIGHT="3009.04 -687.505"
+#! BOUNDING_RECT="3010.04 -688.505 -1 -1"
+#! ORDER="5e+014"
+#! FOLLOW_ANCHOR="true"
+#! INFO_NODE="false"
+#! COLOUR="1,1,0.784314,0.192157"
+#! SIZE_POLICY="8"
+#! COMMENT_TYPE="REGULAR"
+#! ANCHORED_NODE="27"
+#! />
+#! </COMMENTS>
+#! <CONSTANTS>
+#! </CONSTANTS>
+#! <BOOKMARKS>
+#! <BOOKMARK
+#! IDENTIFIER="31"
+#! NAME="Make the JSON output"
+#! DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#! TOP_LEFT="1318 -568.007"
+#! BOTTOM_RIGHT="2632.52 -1242.01"
+#! BOUNDING_RECT="1318 -568.007 1314.52 674.006"
+#! STICKY="true"
+#! COLOUR="0.458824,0.811765,0.831373"
+#! CONTENTS="23 16 29 "
+#! />
+#! </BOOKMARKS>
+#! <TRANSFORMERS>
+#! <TRANSFORMER
+#! IDENTIFIER="14"
+#! TYPE="GeometryExtractor"
+#! VERSION="8"
+#! POSITION="710.507 -658.007"
+#! BOUNDING_RECT="710.507 -658.007 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15485"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="LINE_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="LINE_NAME" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="PRIMARYINDEX" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_geometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="ATTR" PARM_VALUE="_geometry"/>
+#! <XFORM_PARM PARM_NAME="PRECISION" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="OGCVERSION" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="GeometryExtractor"/>
+#! <XFORM_PARM PARM_NAME="KIND_LONG" PARM_VALUE="GeoJSON"/>
+#! <XFORM_PARM PARM_NAME="GEOHASH_PRECISION_DISPLAY" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="OGEOSMS_URL_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="LETTERING" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ELLIPSOID_NAME" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="OMIT_NAMESPACES_DISPLAY" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="LEVELS_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="24"
+#! TYPE="Reprojector"
+#! VERSION="4"
+#! POSITION="135 -490.005"
+#! BOUNDING_RECT="135 -490.005 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15485"
+#! >
+#! <OUTPUT_FEAT NAME="REPROJECTED"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="LINE_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="LINE_NAME" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="PRIMARYINDEX" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
+#! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector"/>
+#! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="TX83-CF"/>
+#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="LL83"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="16"
+#! TYPE="JSONTemplater"
+#! VERSION="0"
+#! POSITION="1371 -796.008"
+#! BOUNDING_RECT="1371 -796.008 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15485"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="LINE_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="LINE_NAME" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="PRIMARYINDEX" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_geometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="jsonRoute" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="SUB_TEMPLATE_PARAMS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="CONSECUTIVE_GROUPS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ROOT_QUERY_FILE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="JSONTemplater_1"/>
+#! <XFORM_PARM PARM_NAME="ROOT_QUERY_EXPR" PARM_VALUE="&lt;opencurly&gt;&lt;apos&gt;type&lt;apos&gt;:&lt;apos&gt;Feature&lt;apos&gt;&lt;comma&gt;&lt;quote&gt;geometry&lt;quote&gt;:&lt;opencurly&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;_geometry&lt;quote&gt;&lt;closeparen&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;quote&gt;properties&lt;quote&gt;:&lt;opencurly&gt;&lt;quote&gt;LINE_ID&lt;quote&gt;:fme:get-attribute&lt;openparen&gt;&lt;quote&gt;LINE_ID&lt;quote&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;quote&gt;LINE_NAME&lt;quote&gt;:fme:get-attribute&lt;openparen&gt;&lt;quote&gt;LINE_NAME&lt;quote&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;quote&gt;PRIMARYINDEX&lt;quote&gt;:fme:get-attribute&lt;openparen&gt;&lt;quote&gt;PRIMARYINDEX&lt;quote&gt;&lt;closeparen&gt;&lt;closecurly&gt;&lt;closecurly&gt;"/>
+#! <XFORM_PARM PARM_NAME="RESULT_ATTRIBUTE" PARM_VALUE="jsonRoute"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="VISIBLE_QUERY_VALIDATE" PARM_VALUE="Yes"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="23"
+#! TYPE="PythonCaller"
+#! VERSION="4"
+#! POSITION="2131.52 -856.008"
+#! BOUNDING_RECT="2131.52 -856.008 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15485"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="LINE_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="LINE_NAME" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="PRIMARYINDEX" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_geometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="jsonRoute" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="HIDE_ATTRIBUTES" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PYTHONSOURCE" PARM_VALUE="import&lt;space&gt;fme&lt;lf&gt;import&lt;space&gt;fmeobjects&lt;lf&gt;import&lt;space&gt;string&lt;lf&gt;&lt;lf&gt;#&lt;space&gt;Template&lt;space&gt;Class&lt;space&gt;Interface:&lt;lf&gt;class&lt;space&gt;FeatureProcessor&lt;openparen&gt;object&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;def&lt;space&gt;__init__&lt;openparen&gt;self&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.lstFeature&lt;space&gt;=&lt;space&gt;&lt;openbracket&gt;&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;def&lt;space&gt;input&lt;openparen&gt;self&lt;comma&gt;feature&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;jsonRoute&lt;space&gt;=&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;quote&gt;jsonRoute&lt;quote&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;jsonRoute&lt;space&gt;=&lt;space&gt;string.replace&lt;openparen&gt;jsonRoute&lt;comma&gt;&lt;quote&gt;&lt;backslash&gt;&lt;backslash&gt;&lt;quote&gt;&lt;comma&gt;&lt;quote&gt;&lt;quote&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;jsonRoute&lt;space&gt;=&lt;space&gt;string.replace&lt;openparen&gt;jsonRoute&lt;comma&gt;&lt;apos&gt;&lt;quote&gt;&lt;opencurly&gt;&lt;quote&gt;&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;&lt;opencurly&gt;&lt;quote&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;jsonRoute&lt;space&gt;=&lt;space&gt;string.replace&lt;openparen&gt;jsonRoute&lt;comma&gt;&lt;apos&gt;&lt;closecurly&gt;&lt;quote&gt;&lt;comma&gt;&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;jsonRoute&lt;space&gt;=&lt;space&gt;string.replace&lt;openparen&gt;jsonRoute&lt;comma&gt;&lt;quote&gt;&lt;space&gt;&lt;quote&gt;&lt;comma&gt;&lt;quote&gt;&lt;quote&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.lstFeature.append&lt;openparen&gt;jsonRoute&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.aFeature&lt;space&gt;=feature&lt;space&gt;#&lt;space&gt;keep&lt;space&gt;a&lt;space&gt;feature&lt;space&gt;for&lt;space&gt;the&lt;space&gt;close&lt;space&gt;pyoutput&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;def&lt;space&gt;close&lt;openparen&gt;self&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;strAllFeature&lt;space&gt;=&lt;space&gt;string.join&lt;openparen&gt;self.lstFeature&lt;comma&gt;&lt;quote&gt;&lt;backslash&gt;n&lt;comma&gt;&lt;quote&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;text_line_data&lt;space&gt;=&lt;space&gt;&lt;backslash&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;apos&gt;&lt;apos&gt;&lt;apos&gt;&lt;opencurly&gt;&lt;quote&gt;name&lt;quote&gt;:&lt;quote&gt;Default.BusRoutes&lt;quote&gt;&lt;comma&gt;&lt;quote&gt;type&lt;quote&gt;:&lt;quote&gt;FeatureCollection&lt;quote&gt;&lt;lf&gt;&lt;comma&gt;&lt;quote&gt;features&lt;quote&gt;:&lt;openbracket&gt;&lt;lf&gt;%s&lt;closebracket&gt;&lt;closecurly&gt;&lt;apos&gt;&lt;apos&gt;&lt;apos&gt;&lt;space&gt;%&lt;space&gt;strAllFeature&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.aFeature.setAttribute&lt;openparen&gt;&lt;quote&gt;text_line_data&lt;quote&gt;&lt;comma&gt;text_line_data&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.pyoutput&lt;openparen&gt;self.aFeature&lt;closeparen&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="PythonCaller"/>
+#! <XFORM_PARM PARM_NAME="PYTHONSYMBOL" PARM_VALUE="FeatureProcessor"/>
+#! <XFORM_PARM PARM_NAME="NEW_ATTRIBUTES" PARM_VALUE="text_line_data"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="LIST_ATTRS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! </TRANSFORMERS>
+#! <FEAT_LINKS>
+#! <FEAT_LINK
+#! IDENTIFIER="21"
+#! SOURCE_NODE="14"
+#! TARGET_NODE="16"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="25"
+#! SOURCE_NODE="18"
+#! TARGET_NODE="24"
+#! SOURCE_PORT_DESC="-1"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="26"
+#! SOURCE_NODE="24"
+#! TARGET_NODE="14"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="29"
+#! SOURCE_NODE="16"
+#! TARGET_NODE="23"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="33"
+#! SOURCE_NODE="23"
+#! TARGET_NODE="27"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="-1"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! </FEAT_LINKS>
+#! <BREAKPOINTS>
+#! </BREAKPOINTS>
+#! <ATTR_LINKS>
+#! </ATTR_LINKS>
+#! <SUBDOCUMENTS>
+#! </SUBDOCUMENTS>
+#! <LOOKUP_TABLES>
+#! </LOOKUP_TABLES>
+#! </WORKSPACE>
+#! 
+GUI IGNORE SourceDataset_SDF3_1,SDF3_IN_SEARCH_ENVELOPE_MINX_SDF3_1,SDF3_IN_SEARCH_ENVELOPE_MINY_SDF3_1,SDF3_IN_SEARCH_ENVELOPE_MAXX_SDF3_1,SDF3_IN_SEARCH_ENVELOPE_MAXY_SDF3_1,SDF3_IN_CLIP_TO_ENVELOPE_SDF3_1,DestDataset_TEXTLINE_1,TEXTLINE_OUT_OVERWRITE_FILE_TEXTLINE_1,TEXTLINE_OUT_END_OF_LINE_TEXTLINE_1,TEXTLINE_OUT_WRITE_LAST_EOL_TEXTLINE_1,TEXTLINE_OUT_ENCODING_TEXTLINE_1,TEXTLINE_OUT_WRITE_UTF8_BOM_TEXTLINE_1
+DEFAULT_MACRO SourceDataset_SDF3 C:\FMEData\Data\Transit\Transit.sdf
+GUI IGNORE MULTIFILE SourceDataset_SDF3 SDF_Files(*.sdf)|*.sdf|All_files(*.*)|*.* Source Autodesk MapGuide Enterprise SDF File(s):
+DEFAULT_MACRO DestDataset_TEXTLINE_3 D:\projects\other\geojson_streaming_demo\output\out.txt
+GUI IGNORE FILENAME DestDataset_TEXTLINE_3 Text/Compressed_Text_Files(*.txt;*.txt.gz)|*.txt;*.txt.gz|Text_Files(*.txt)|*.txt|Compressed_Text_Files(*.txt.gz)|*.txt.gz|All_files(*)|* Destination Text File:
+INCLUDE [ if {{$(SourceDataset_SDF3)} == {}} { puts_real {Parameter 'SourceDataset_SDF3' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(DestDataset_TEXTLINE_3)} == {}} { puts_real {Parameter 'DestDataset_TEXTLINE_3' must be given a value.}; exit 1; }; ]
+#! START_HEADER
+#! WORKSPACE_VERSION 1
+# ============================================================================ 
+# 
+# This mapping file was generated by FME Workbench
+# on 01/02/12 14:43:59 for translation between SHAPE and GEOJSON
+# 
+# This workspace was generated with FME build 6538
+#
+# You may edit this mapping file to customize its operation.  Comments are 
+# placed throughout to assist you. 
+# 
+# Modification History:
+# 
+#     Name              Date     Description
+#     ================= ======== =============================================
+# 
+# 
+# ============================================================================ 
+# ============================================================================ 
+# The following line defines the title presented to the user when this
+# mapping file is run through the FME GUI.  You may modify this
+# if a more meaningful title would be appropriate.
+GUI TITLE SHAPE to GEOJSON Translation 
+# ============================================================================ 
+# The following line names the log file to which useful statistics about
+# the translation will be written.  This line can be uncommented and
+# updated if you do wish to keep these statistics.
+# LOG_FILENAME translation.log
+# LOG_APPEND NO
+# ============================================================================ 
+# The following line instructs the FME to log any features that do not
+# match any of the source feature patterns listed further down in
+# this file.  If you are modifying this mapping file, this will be
+# useful to describe to you exactly which features you are losing
+# during translation, if the statistics indicate that features are
+# not being correlated or grouped.  Uncorrelated features do not
+# match any source specification, ungrouped features do not have
+# any corresponding _DEF line. 
+# FME_DEBUG UNGROUPED UNCORRELATED
+# ============================================================================ 
+# The following two lines define the type of reader and writer to be
+# used for this translation.  If you want to translate your data
+# back into its original format, you may make a copy of this file
+# and switch the reader and writer types.  If you rerun the FME, you
+# will get your original data back again (together with any modifications
+# you made in the meantime).  Note that several formats are NOT
+# bi-directional (for example, GIF can only be used as a WRITER)
+# so a reverse translation may not always be possible.
+#! START_WB_HEADER
+READER_TYPE SDF3
+READER_KEYWORD SDF3_1
+READER_GEN_DIRECTIVES DUMMY,YES,USE_SEARCH_ENVELOPE,NO,SDF3_EXPOSE_FORMAT_ATTRS,,_MERGE_SCHEMAS,YES,SEARCH_ENVELOPE_MAXY,0,REMOVE_SCHEMA_QUALIFIER,NO,SEARCH_ENVELOPE_MAXX,0,SEARCH_ENVELOPE_MINX,0,TABLELIST,Default.BusStops<space>Default.BusRoutes,CLIP_TO_ENVELOPE,NO,SEARCH_ENVELOPE_MINY,0
+WRITER_TYPE MULTI_WRITER
+MULTI_WRITER_DATASET_ORDER BY_ID
+MULTI_WRITER_FIRST_WRITER_ID 0
+MULTI_WRITER_TYPE{0} TEXTLINE
+MULTI_WRITER_KEYWORD{0} TEXTLINE_1
+#! END_WB_HEADER
+#! START_WB_HEADER
+MACRO WB_KEYWORD "SDF3_1"
+#! END_WB_HEADER
+#! START_SOURCE_HEADER SDF3 SDF3_1
+# =====================================================================
+# The following GUI line prompts for a file to be used as the source
+# SDF3 file. The user input is stored in a macro, which is then
+# used to define the dataset to be read.
+# The dataset this mapping file was generated from was:
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO SourceDataset
+INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
+ puts {DEFAULT_MACRO SourceDataset_SDF3_1 $(SourceDataset)}     \
+ } ]
+#! END_WB_HEADER
+#! START_SOURCE_HEADER SDF3 SDF3_1
+DEFAULT_MACRO SourceDataset_SDF3_1 $(SourceDataset_SDF3)
+GUI MULTIFILE SourceDataset_SDF3_1 SDF_Files(*.sdf)|*.sdf|All_files(*.*)|*.* Source Autodesk MapGuide Enterprise SDF File(s):
+# Include this file in source setting section to add native search envelope processing
+# Zero as a default means we don't do any search -- this makes workbench happier
+# ===========================================================================
+DEFAULT_MACRO SDF3_IN_SEARCH_ENVELOPE_MINX_SDF3_1 0
+SDF3_1_SEARCH_ENVELOPE "$(SDF3_IN_SEARCH_ENVELOPE_MINX_SDF3_1)"
+GUI OPTIONAL FLOAT SDF3_IN_SEARCH_ENVELOPE_MINX_SDF3_1 Minimum X:
+# ===========================================================================
+DEFAULT_MACRO SDF3_IN_SEARCH_ENVELOPE_MINY_SDF3_1 0
+SDF3_1_SEARCH_ENVELOPE "$(SDF3_IN_SEARCH_ENVELOPE_MINY_SDF3_1)"
+GUI OPTIONAL FLOAT SDF3_IN_SEARCH_ENVELOPE_MINY_SDF3_1 Minimum Y:
+# ===========================================================================
+DEFAULT_MACRO SDF3_IN_SEARCH_ENVELOPE_MAXX_SDF3_1 0
+SDF3_1_SEARCH_ENVELOPE "$(SDF3_IN_SEARCH_ENVELOPE_MAXX_SDF3_1)"
+GUI OPTIONAL FLOAT SDF3_IN_SEARCH_ENVELOPE_MAXX_SDF3_1 Maximum X:
+# ===========================================================================
+DEFAULT_MACRO SDF3_IN_SEARCH_ENVELOPE_MAXY_SDF3_1 0
+SDF3_1_SEARCH_ENVELOPE "$(SDF3_IN_SEARCH_ENVELOPE_MAXY_SDF3_1)"
+GUI OPTIONAL FLOAT SDF3_IN_SEARCH_ENVELOPE_MAXY_SDF3_1 Maximum Y:
+# ===========================================================================
+DEFAULT_MACRO SDF3_IN_CLIP_TO_ENVELOPE_SDF3_1 NO
+SDF3_1_CLIP_TO_ENVELOPE "$(SDF3_IN_CLIP_TO_ENVELOPE_SDF3_1)"
+GUI OPTIONAL CHECKBOX SDF3_IN_CLIP_TO_ENVELOPE_SDF3_1 YES%NO Clip to Search Envelope
+SDF3_1_DATASET "$(SourceDataset_SDF3_1)"
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+MACRO WB_KEYWORD "TEXTLINE_1"
+#! END_WB_HEADER
+#! START_DEST_HEADER TEXTLINE TEXTLINE_1
+# =====================================================================
+# The following GUI line prompts for a folder to be used as the
+# the destination for the TextLine files. The user input is stored in
+# a macro, which is then used to define the dataset to be written.
+#! END_DEST_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO DestDataset
+INCLUDE [ if {"$(DestDataset)" != ""} {                          \
+ puts {DEFAULT_MACRO DestDataset_TEXTLINE_1 $(DestDataset)}         \
+ } ]
+#! END_WB_HEADER
+#! START_DEST_HEADER TEXTLINE TEXTLINE_1
+DEFAULT_MACRO DestDataset_TEXTLINE_1 $(DestDataset_TEXTLINE_3)
+GUI FILENAME DestDataset_TEXTLINE_1 Text/Compressed_Text_Files(*.txt;*.txt.gz)|*.txt;*.txt.gz|Text_Files(*.txt)|*.txt|Compressed_Text_Files(*.txt.gz)|*.txt.gz|All_files(*)|* Destination Text File:
+# =====================================================================
+# The following GUI line prompts for the overwrite flag. The default is
+# YES. Possible values are YES or NO. Any value other than NO or
+# no is interpreted as YES.
+DEFAULT_MACRO TEXTLINE_OUT_OVERWRITE_FILE_TEXTLINE_1 YES
+TEXTLINE_1_OVERWRITE_FILE "$(TEXTLINE_OUT_OVERWRITE_FILE_TEXTLINE_1)"
+GUI CHOICE TEXTLINE_OUT_OVERWRITE_FILE_TEXTLINE_1 YES%NO Overwrite Existing File:
+# =====================================================================
+# Set the type of encoding for the output file
+# =====================================================================
+# Set line termination character
+DEFAULT_MACRO TEXTLINE_OUT_END_OF_LINE_TEXTLINE_1 System
+TEXTLINE_1_END_OF_LINE "$(TEXTLINE_OUT_END_OF_LINE_TEXTLINE_1)"
+GUI CHOICE TEXTLINE_OUT_END_OF_LINE_TEXTLINE_1 System%Windows%Unix%Macintosh%Source%None Line Termination:
+# =====================================================================
+# Set whether to write the last line termination character
+DEFAULT_MACRO TEXTLINE_OUT_WRITE_LAST_EOL_TEXTLINE_1 YES
+TEXTLINE_1_WRITE_LAST_EOL "$(TEXTLINE_OUT_WRITE_LAST_EOL_TEXTLINE_1)"
+GUI CHOICE TEXTLINE_OUT_WRITE_LAST_EOL_TEXTLINE_1 YES%NO Write Last Line Terminator:
+DEFAULT_MACRO TEXTLINE_OUT_ENCODING_TEXTLINE_1 SYSTEM
+TEXTLINE_1_ENCODING "$(TEXTLINE_OUT_ENCODING_TEXTLINE_1)"
+GUI STRING_OR_ENCODING TEXTLINE_OUT_ENCODING_TEXTLINE_1 SYSTEM%* Character Encoding:
+# =====================================================================
+# The following GUI line prompts for the overwrite flag. The default is
+# YES. Possible values are YES or NO. Any value other than NO or
+# no is interpreted as YES.
+DEFAULT_MACRO TEXTLINE_OUT_WRITE_UTF8_BOM_TEXTLINE_1 YES
+TEXTLINE_1_WRITE_UTF8_BOM "$(TEXTLINE_OUT_WRITE_UTF8_BOM_TEXTLINE_1)"
+GUI CHOICE TEXTLINE_OUT_WRITE_UTF8_BOM_TEXTLINE_1 YES%NO Write UTF Byte Order Mark
+# =====================================================================
+# Set the mime type. Note -- it is actually only used inside of workspaces
+# as a FORMAT_PARAMETER which even then is parsed only by the FME Server
+# Repository Manager
+# ============================================================================
+# Opt in for destination dataset type vs format type validation
+DEFAULT_MACRO TEXTLINE_OUT_DESTINATION_DATASETTYPE_VALIDATION_TEXTLINE_1 Yes
+TEXTLINE_1_DESTINATION_DATASETTYPE_VALIDATION "$(TEXTLINE_OUT_DESTINATION_DATASETTYPE_VALIDATION_TEXTLINE_1)"
+TEXTLINE_1_DATASET "$(DestDataset_TEXTLINE_1)"
+#! END_DEST_HEADER
+#! END_HEADER
+
+LOG_FILENAME "$(FME_MF_DIR)GeoJson.log"
+LOG_APPEND NO
+LOG_MAX_FEATURES 200
+LOG_MAX_RECORDED_FEATURES 200
+LOG_MAX_PRECISION Yes
+FME_REPROJECTION_ENGINE FME
+FME_IMPLICIT_CSMAP_REPROJECTION_MODE Datum
+FME_GEOMETRY_HANDLING Enhanced
+FME_STROKE_MAX_DEVIATION 0
+LOG_FILTER_MASK -1
+DEFAULT_MACRO DATASET_KEYWORD_SDF3_1 SDF3_1
+DEFAULT_MACRO DATASET_KEYWORD_TEXTLINE_1 TEXTLINE_1
+# -------------------------------------------------------------------------
+
+SDF3_1_READER_META_ATTRIBUTES fme_feature_type
+
+# -------------------------------------------------------------------------
+
+SDF3_1_COORDINATE_SYSTEM TX83-CF
+SDF3_1_FEATURE_TYPES Default.BusRoutes Default.BusStops
+MULTI_READER_CONTINUE_ON_READER_FAILURE No
+
+# -------------------------------------------------------------------------
+
+MACRO WORKSPACE_NAME GeoJson
+MACRO FME_VIEWER_APP fmedatainspector
+# -------------------------------------------------------------------------
+SDF3_1_DEF Default.BusRoutes   LINE_ID                      char(5)   LINE_NAME                    char(50)   PRIMARYINDEX                 int32
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   INPUT FEATURE_TYPE *       @SupplyAttributes(multi_reader_keyword,SDF3_1)    ROUTE SDF3 SDF3_1::Default.BusRoutes TO FME_GENERIC ::Default.BusRoutes ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
+SDF3_1_MERGE_DEF SDF3_1::Default.BusRoutes EXACT Default.BusRoutes
+DEFAULT_MACRO WB_CURRENT_CONTEXT
+# -------------------------------------------------------------------------
+
+# Wipe out the source setting if it was untouched from the default setting
+
+DEFAULT_MACRO Reprojector_SOURCE "TX83-CF"
+INCLUDE [if { {TX83-CF} == {Read from feature} } {             puts {MACRO Reprojector_SOURCE}          }         ]
+Tcl2 proc Reprojector_warnIfSourceIgnored {chosenSource} {   global FME_CoordSys;   global Reprojector_haveWarned;   if { [info exists Reprojector_haveWarned] == 0        && $chosenSource != {}        && $FME_CoordSys != {}        && $chosenSource != $FME_CoordSys } {      set Reprojector_haveWarned 1;      FME_LogMessage fme_warn \"Reprojector: Ignoring source coordinate system '$chosenSource' in favor of feature coordinate system. This warning will not be repeated\";   }; }
+# Passing in source CS to @Tcl rather than referencing it directly to allow
+# attribute evalutation to be performed.
+FACTORY_DEF * TeeFactory    FACTORY_NAME Reprojector    INPUT  FEATURE_TYPE Default.BusRoutes    OUTPUT FEATURE_TYPE Reprojector_REPROJECTED         @Tcl2("Reprojector_warnIfSourceIgnored {$(Reprojector_SOURCE)}")         @Reproject($(Reprojector_SOURCE),"LL83",NearestNeighbor,PreserveCells)
+
+# -------------------------------------------------------------------------
+
+# First determine which function we are going to be using -- we can do
+# this statically at parse time for efficiency sake
+
+MACRO GeometryExtractor_Function
+INCLUDE [ if {{GEOJSON} == {fmebinary} } {               puts {MACRO GeometryExtractor_Function @Geometry(TO_ATTRIBUTE_BINARY,"_geometry") }           } elseif {{GEOJSON} == {fmehex} } {               puts {MACRO GeometryExtractor_Function @Geometry(TO_ATTRIBUTE_BINARY_HEX,"_geometry") }           } elseif {{GEOJSON} == {fmexml} } {               puts {MACRO GeometryExtractor_Function @Geometry(TO_ATTRIBUTE,"_geometry") }           } elseif {{GEOJSON} == {polyline} } {               puts {MACRO GeometryExtractor_Function @Geometry(TO_ATTRIBUTE_POLYLINE,"_geometry",<Unused>) }           } elseif {{GEOJSON} == {wkt} ||                      {GEOJSON} == {wkb} ||                      {GEOJSON} == {wkbhex} } {               puts {MACRO GeometryExtractor_Function @OGCGeometry(to_attribute,GEOJSON,"_geometry",<Unused>) }           } elseif {{GEOJSON} == {GEOJSON} ||                     {GEOJSON} == {ESRIJSON} } {               puts {MACRO GeometryExtractor_Function @JSONGeometry(TO_ATTRIBUTE,GEOJSON,"_geometry") }           } elseif {{GEOJSON} == {KML} } {               puts {MACRO GeometryExtractor_Function @KMLGeometry(TO_ATTRIBUTE,"_geometry",<Unused>) }           } elseif {{GEOJSON} == {GEORSS_SIMPLE} } {               puts {MACRO GeometryExtractor_Function @GeoRSSGeometry(TO_ATTRIBUTE,GEOJSON,"_geometry",<Unused>) }           } elseif {{GEOJSON} == {GML_2.1.2} ||                     {GEOJSON} == {GML_3.1.1} ||                     {GEOJSON} == {GML_3.2.1} } {               puts {MACRO GeometryExtractor_Function @GMLGeometry(TO_ATTRIBUTE,GEOJSON,"_geometry",<Unused>) }           } elseif {{GEOJSON} == {geohash} } {               puts {MACRO GeometryExtractor_Function @GeoHash(TO_ATTRIBUTE,"_geometry",<Unused>) }           } elseif {{GEOJSON} == {ogeosms} } {               puts {MACRO GeometryExtractor_Function @OGCGeometry(to_attribute,GEOJSON,"_geometry",<Unused>) }           } elseif {{GEOJSON} == {geosms} ||                     {GEOJSON} == {geo}    } {               puts {MACRO GeometryExtractor_Function @OGCGeometry(to_attribute,GEOJSON,"_geometry") }           } elseif {{GEOJSON} == {mgrs} } {               puts {MACRO GeometryExtractor_Function @SupplyAttributes(_geometry, @MGRS(TO_MGRS, <Unused>, <Unused>, "<Unused>")) }           }         ]
+FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryExtractor    INPUT  FEATURE_TYPE Reprojector_REPROJECTED    OUTPUT FEATURE_TYPE GeometryExtractor_OUTPUT         $(GeometryExtractor_Function)
+
+# -------------------------------------------------------------------------
+FACTORY_DEF * XMLTemplaterFactory FACTORY_NAME JSONTemplater_1 INPUT CONTROL_FEATURE FEATURE_TYPE GeometryExtractor_OUTPUT INPUT DATA_FEATURE FEATURE_TYPE JSONTemplater_1_DataFeatures RESULT_ATTR jsonRoute OUTPUT_XML_HEADER NO BUCKET_ATTR_NAME __xml_templater_bucket__ CONTROL_TEMPLATE_EXPR <opencurly><apos>type<apos>:<apos>Feature<apos><comma><quote>geometry<quote>:<opencurly>fme:get-attribute<openparen><quote>_geometry<quote><closeparen><closecurly><comma><quote>properties<quote>:<opencurly><quote>LINE_ID<quote>:fme:get-attribute<openparen><quote>LINE_ID<quote><closeparen><comma><quote>LINE_NAME<quote>:fme:get-attribute<openparen><quote>LINE_NAME<quote><closeparen><comma><quote>PRIMARYINDEX<quote>:fme:get-attribute<openparen><quote>PRIMARYINDEX<quote><closeparen><closecurly><closecurly> OUTPUT XML_DOCUMENT FEATURE_TYPE JSONTemplater_1_OUTPUT
+# -------------------------------------------------------------------------
+
+
+FME_PYTHON_PATH "$(FME_MF_DIR)"
+
+FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller    INPUT  FEATURE_TYPE JSONTemplater_1_OUTPUT    SYMBOL_NAME FeatureProcessor    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>string<lf><lf>#<space>Template<space>Class<space>Interface:<lf>class<space>FeatureProcessor<openparen>object<closeparen>:<lf><space><space><space><space>def<space>__init__<openparen>self<closeparen>:<lf><space><space><space><space><space><space><space><space>self.lstFeature<space>=<space><openbracket><closebracket><lf><space><space><space><space>def<space>input<openparen>self<comma>feature<closeparen>:<lf><space><space><space><space><space><space><space><space>jsonRoute<space>=<space>feature.getAttribute<openparen><quote>jsonRoute<quote><closeparen><lf><space><space><space><space><space><space><space><space>jsonRoute<space>=<space>string.replace<openparen>jsonRoute<comma><quote><backslash><backslash><quote><comma><quote><quote><closeparen><lf><space><space><space><space><space><space><space><space>jsonRoute<space>=<space>string.replace<openparen>jsonRoute<comma><apos><quote><opencurly><quote><apos><comma><apos><opencurly><quote><apos><closeparen><lf><space><space><space><space><space><space><space><space>jsonRoute<space>=<space>string.replace<openparen>jsonRoute<comma><apos><closecurly><quote><comma><apos><comma><apos><closecurly><comma><apos><closeparen><lf><space><space><space><space><space><space><space><space>jsonRoute<space>=<space>string.replace<openparen>jsonRoute<comma><quote><space><quote><comma><quote><quote><closeparen><lf><space><space><space><space><space><space><space><space>self.lstFeature.append<openparen>jsonRoute<closeparen><lf><space><space><space><space><space><space><space><space>self.aFeature<space>=feature<space>#<space>keep<space>a<space>feature<space>for<space>the<space>close<space>pyoutput<lf><space><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space><space><lf><space><space><space><space>def<space>close<openparen>self<closeparen>:<lf><space><space><space><space><space><space><space><space>strAllFeature<space>=<space>string.join<openparen>self.lstFeature<comma><quote><backslash>n<comma><quote><closeparen><lf><space><space><space><space><space><space><space><space>text_line_data<space>=<space><backslash><lf><space><space><space><space><space><space><space><space><apos><apos><apos><opencurly><quote>name<quote>:<quote>Default.BusRoutes<quote><comma><quote>type<quote>:<quote>FeatureCollection<quote><lf><comma><quote>features<quote>:<openbracket><lf>%s<closebracket><closecurly><apos><apos><apos><space>%<space>strAllFeature<lf><space><space><space><space><space><space><space><space>self.aFeature.setAttribute<openparen><quote>text_line_data<quote><comma>text_line_data<closeparen><lf><space><space><space><space><space><space><space><space>self.pyoutput<openparen>self.aFeature<closeparen>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_OUTPUT
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC PythonCaller_OUTPUT TO TEXTLINE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>text_line<closeparen> GEOMETRY   OUTPUT ROUTED FEATURE_TYPE * @FeatureType(ENCODED,@Value(__wb_out_feat_type__)) @RemoveAttributes(__wb_out_feat_type__)   OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
+
